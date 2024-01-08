@@ -1,0 +1,509 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    width: 100% !important;
+}
+      
+.container {
+    max-width: 1000px; 
+    margin: 0 auto; 
+    box-sizing: border-box; 
+    
+}
+
+
+
+.banner {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.918) 0%, rgba(0, 0, 0, 0.534) 100%), url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;  
+    margin: 50px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.banner-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+}
+
+.banner-small-title {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+
+
+/* Ended Header Section  */
+
+
+/* main section started */
+
+/* off section  */
+
+.off-section{
+    padding: 120px;
+}
+
+.off-section h2{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.off-section p{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.off-section h3{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.off-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.off-image img{
+    max-width: 100%;
+    max-height: 100%
+}
+
+/* off section ending */
+
+/* party section starting  */
+
+
+.party-section{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.918) 0%, rgba(0, 0, 0, 0.603) 100%), url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;  
+    margin: 50px 0;
+    border-radius: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 39px;
+}
+
+.col-1{
+    flex-basis: 50%;
+    margin-top: 120px;
+}
+
+.col-2 {
+    flex-basis: 30%;
+    margin-top: 100px;
+}
+
+
+.col-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.col-1 h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: start;
+}
+
+.col-1 p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.party-btn{
+    background: transparent;
+    color: #FFF;
+    text-align: start;
+    font-family: "Inter", sans-serif;
+    border: none !important;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+
+.col-2 img{
+    width: 319.83px; 
+    float: right;
+}
+
+
+
+/* party-section ending  */
+
+.list{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 385px 214px;
+    border-radius: 20px;
+    margin-top: 120px;
+}
+
+.list h3{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.list h3 span{
+    color: black;
+}
+
+.list-btn{
+    display: inline-flex;
+    padding: 16px 32px;
+    gap: 10px;
+    background-color: #F00;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Best offer section  */
+.best-offer{
+    margin-top: 120px;
+}
+
+
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.column {
+    flex-basis: 30%; 
+}
+
+
+.column {
+    padding: 20px;
+}
+
+.column h4{
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.column h2{
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
+
+.column p{
+    width: 393px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: light;
+}
+
+.best-offer-iamge{
+    border: 5px solid #F00;
+    border-radius: 50%;
+}
+
+.best-offer-iamge img{
+    padding: 50px;
+}
+
+.offer-year{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.offer-last-para{
+    margin-top: 16px;
+}
+
+/* holiday section  */
+
+.section-title{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.section-title small{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.section-title .big-title{
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+    margin-top: 16px;
+}
+
+.section-title .big-title span{
+    color: #F00;
+}
+
+.title-description{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: light;
+    margin-top: 0px;
+}
+
+.row-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    position: relative;
+}
+
+
+.fifty-sticker {
+	position: absolute;
+	top: 70px;
+	left: -187px;
+}
+
+.girl-with-bag{
+    position: relative;
+}
+
+.gift-box img{
+    position: absolute;
+    top: 180px;
+    width: 600px;
+}
+
+.girl-with-bag .girl {
+	width: 429px;
+	height: 433px;
+	flex-shrink: 0;
+	margin-right: -19px;
+    position: relative;
+    bottom: -4px;
+}
+
+
+
+/* <!-- best gift offer section  --> */
+
+.best-offer .section-title{
+    text-align: start;
+}
+
+.best-offer .section-title small{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-offer .section-title .big-title{
+    color: #070211 !important;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.best-offer  .title-description{
+    text-align: start;
+}
+
+
+.row-4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.column-4{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.news-letter{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px 240px;
+    margin-top: 120px;
+}
+
+.news-letter h1{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.news-letter p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.latter-form{
+    margin-top: 48px;
+    position: relative;
+}
+
+.latter-form input{
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    outline: none;
+    padding-left: 0px;
+    font-size: 18px;
+}
+
+.latter-form button {
+	width: 207px;
+	height: 73px;
+	flex-shrink: 0;
+	border-radius: 0px 50px 50px 0px;
+	background: #F00;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 600;
+	position: absolute;
+	right: 47px;
+}
+
+/* NEWS LETTER ENDING  */
+footer{
+    background-color: #070211;
+    margin-top: 120px;
+    padding-top: 120px;
+}
+
+.address-and-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.address p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+
+.info p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+.social-info {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.social-info .icon a {
+    margin-right: 24px;
+} 
+
+.year-and-subscribe {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.year-and-subscribe p {
+    color: wheat;
+    font-family: inherit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
